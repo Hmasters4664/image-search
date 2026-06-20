@@ -19962,3 +19962,4 @@ search/lib/python3.12/site-packages/torch-2.12.1.dist-info/WHEEL
 search/lib/python3.12/site-packages/torch-2.12.1.dist-info/licenses/LICENSE
 search/lib/python3.12/site-packages/torch-2.12.1.dist-info/licenses/NOTICE
 search/
+.env
