@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    app_name: str = "FastAPI Scaffold"
+    app_name: str = "FastAPI Image Search"
     app_env: str = "development"
     b2_key_id: str = ""
     b2_app_key: str = ""
