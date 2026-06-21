@@ -7,6 +7,11 @@ class Settings(BaseSettings):
     b2_key_id: str = ""
     b2_app_key: str = ""
     b2_bucket_id: str = ""
+    appwrite_endpoint: str = ""
+    appwrite_project_id: str = ""
+    appwrite_api_key: str = ""
+    appwrite_database_id: str = ""
+    appwrite_collection_id: str = ""
 
     model_config = SettingsConfigDict(
         env_file=".env",
